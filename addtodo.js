@@ -3,11 +3,11 @@ export const addToDo = (value) => {
   let listBtn = document.createElement("button");
   let toDoCheck = document.createElement("input");
 
-  listItem.classList.add("listItem");
-  listBtn.classList.add("btn-dark", "btn", "listBtn");
-  toDoCheck.classList.add("toDoCheck", "form-check-input");
+  listItem.classList.add("list-item");
+  listBtn.classList.add("btn-dark", "btn", "list-btn");
+  toDoCheck.classList.add("todo-check", "form-check-input");
 
-  listItem.innerHTML = `<span class = "listItem__text">${value}</span>`;
+  listItem.innerHTML = `<span class = "list-item-text">${value}</span>`;
   listBtn.innerHTML = "Delete";
   toDoCheck.type = "checkbox";
 

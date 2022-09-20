@@ -30,7 +30,7 @@ form {
   padding: 0;
   text-align: center;
 }
-.listItem {
+.list-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,6 +51,6 @@ form {
 .error-message {
   color: red;
 }
-.toDoCheck {
+.todo-check {
   cursor: pointer;
 }
